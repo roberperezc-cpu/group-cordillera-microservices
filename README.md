@@ -37,7 +37,7 @@ El ecosistema está compuesto por **10 microservicios** desacoplados, organizado
 * **Ecosistema Cloud:** Spring Cloud Gateway, Netflix Eureka Server
 * **Persistencia:** Hibernate / Spring Data JPA
 * **Base de Datos:** MySQL (con soporte de Flyway para migraciones en módulos transaccionales críticos)
-* **Utilidades:** Lombok, Maven
+* **Utilidades:** Lombok, Maven|
 
 ---
 
