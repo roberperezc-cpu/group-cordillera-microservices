@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customer-service/customer-service.iml" filepath="$PROJECT_DIR$/customer-service/customer-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/delivery-service/delivery-service.iml" filepath="$PROJECT_DIR$/delivery-service/delivery-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discount-service/discount-service.iml" filepath="$PROJECT_DIR$/discount-service/discount-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/employee-service/employee-service.iml" filepath="$PROJECT_DIR$/employee-service/employee-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/group-cordillera/group-cordillera.iml" filepath="$PROJECT_DIR$/group-cordillera/group-cordillera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inventory-service/inventory-service.iml" filepath="$PROJECT_DIR$/inventory-service/inventory-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment-service/payment-service.iml" filepath="$PROJECT_DIR$/payment-service/payment-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/supplier-service/supplier-service.iml" filepath="$PROJECT_DIR$/supplier-service/supplier-service.iml" />
+    </modules>
+  </component>
+</project>
