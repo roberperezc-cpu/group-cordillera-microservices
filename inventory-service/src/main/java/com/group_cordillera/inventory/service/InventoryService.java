@@ -1,11 +1,22 @@
 package com.group_cordillera.inventory.service;
 
+import com.group_cordillera.inventory.model.Product;
+import com.group_cordillera.inventory.repository.ProductRepository;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 @Slf4j
 public class InventoryService {
+    @Autowired
+    private ProductRepository productRepository;
+
+    public List<Product> obtenerTodos() {
+        return productRepository.findAll();
+    }
 
     public boolean validarStock(Long productoId, Integer cantidad) {
         log.info("[INVENTORY SERVICE] Validando stock lógico para producto: {}", productoId);
